@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextNews - Latest Headlines</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Next<span>News</span></h1>
+                </div>
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search news...">
+                    <button id="search-button">🔍</button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="#" class="active" data-category="general">General</a></li>
+                    <li><a href="#" data-category="business">Business</a></li>
+                    <li><a href="#" data-category="technology">Technology</a></li>
+                    <li><a href="#" data-category="entertainment">Entertainment</a></li>
+                    <li><a href="#" data-category="sports">Sports</a></li>
+                    <li><a href="#" data-category="science">Science</a></li>
+                    <li><a href="#" data-category="health">Health</a></li>
+                    <li><a href="#" data-category="politics">Politics</a></li>
+                    <li><a href="#" data-category="international">International</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Stay Informed with NextNews</h2>
+                <p>Your trusted source for the latest headlines and breaking news from around the world</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <h2 class="section-title" id="current-category">Top Stories from India</h2>
+        
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+        </div>
+        
+        <div id="error-container"></div>
+        
+        <div class="news-grid" id="news-container">
+            <!-- News articles will be loaded here dynamically -->
+        </div>
+        
+        <div class="pagination" id="pagination">
+            <!-- Pagination will be added here dynamically -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">About NextNews</h3>
+                    <p>NextNews delivers the latest headlines and breaking news from around the world, providing accurate and timely information to keep you informed.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Latest News</a></li>
+                        <li><a href="#">Trending</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 NextNews. All rights reserved.</p>
+                <p style="margin-top: 10px;">Made by Suprabhat with 💌</p>
+            </div>
+        </div>
+    </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
+
+  
